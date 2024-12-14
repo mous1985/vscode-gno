@@ -95,7 +95,7 @@
   },
   "activationEvents": [
     "onLanguage:gno",
-    "onLanguage:gno.sum",
+    
     "onLanguage:gnotmpl",
     "onDebugInitialConfigurations",
     "onDebugResolve:gno",
@@ -148,25 +148,6 @@
       },
       
       {
-        "id": "gno.work",
-        "filenames": [
-          "gno.work"
-        ],
-        "aliases": [
-          "Gno Work File"
-        ],
-        "configuration": "./languages/gno.mod.language-configuration.json"
-      },
-      {
-        "id": "gno.sum",
-        "filenames": [
-          "gno.sum"
-        ],
-        "aliases": [
-          "Gno Checksum File"
-        ]
-      },
-      {
         "id": "gotmpl",
         "extensions": [
           ".tmpl",
@@ -183,20 +164,11 @@
         "scopeName": "gno.mod",
         "path": "./syntaxes/gno.mod.tmGrammar.json"
       },
-      {
-        "language": "gno.work",
-        "scopeName": "gno.mod",
-        "path": "./syntaxes/gno.mod.tmGrammar.json"
-      },
+      
       {
         "language": "gno",
         "scopeName": "source.gno",
         "path": "./syntaxes/gno.tmLanguage.json"
-      },
-      {
-        "language": "gno.sum",
-        "scopeName": "gno.sum",
-        "path": "./syntaxes/gno.sum.tmGrammar.json"
       }
     ],
     "snippets": [
